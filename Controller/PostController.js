@@ -62,31 +62,6 @@ export const fetchPosts = async (req, res) => {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Create Post
 export const createPost = async (req, res) => {
     const { user_id, title, description } = req.body;
